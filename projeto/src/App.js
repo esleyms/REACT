@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>NOVO PROJETO</h1>
+      <h1>PROJETO MA</h1>
       <h1>{newName}</h1>
       <h1>soma: {sum(1, 2)}</h1>
       <img src={url} alt="Minha imagem" />

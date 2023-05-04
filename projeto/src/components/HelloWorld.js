@@ -5,10 +5,10 @@ function HellWorld() {
     return (
         <div>
             <Frase/>
-            <h1>Meu primeiro componete</h1>
-            <Frase/>
+            <h1> Componete teste </h1>
+            
 
-            <Frase/>
+        
         </div>
     )
 }
