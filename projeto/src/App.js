@@ -4,6 +4,9 @@ import HellWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoas'
 import Pessoas from './components/Pessoas';
+import Frase from './components/Frase'
+import List from './components/List'
+
 
 function App() {
   const name = 'Esley'
@@ -18,18 +21,22 @@ function App() {
 
   return (
     <div className="App">
-      <h1>PROJETO MA</h1>
+
+      <h1>Testando CSS</h1>
+      <Frase />
+      <Frase />
       <h1>{newName}</h1>
-      <h1>soma: {sum(1, 2)}</h1>
-      <img src={url} alt="Minha imagem" />
       <p></p>
       <button>Ativar</button>
-      <SayMyName none="Jonas"/>
-      <SayMyName nome = {nome}/>
-      <Pessoas nome =" João"
-      idade="35"
-      profissão="Programador"
+      <p></p>
+      <h1>soma: {sum(1, 2)}</h1>
+      <img src={url} alt="Minha imagem" /> 
+      <SayMyName nome={nome} />
+      <Pessoas nome=" João"
+        idade="35"
+        profissão="Programador"
       />
+      <List/>
     </div>
   );
 }
