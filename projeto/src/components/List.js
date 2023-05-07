@@ -5,9 +5,10 @@ return (
     <>
         <h1> Minha lista</h1>
         <ul>
-            <Item marca="Ferrari"/>
-            <Item marca="Fiat"/>
-            <Item marca="Renaut"/>
+            <Item marca="Ferrari" ano_lacamento={1985}/>
+            <Item marca="Fiat" ano_lacamento={1964}/>
+            <Item marca="Renault"/>
+            <Item/>
             
         </ul>
     </>
@@ -15,3 +16,4 @@ return (
 
 }
 export default List
+
