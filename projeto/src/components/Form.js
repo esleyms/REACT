@@ -12,7 +12,7 @@ function Form() {
     const [password, setPassword] = useState ()
     return (
         <div>
-            <h1>Meu cadastro</h1>
+            <h1>Meu cadastro Teste</h1>
             <form onSubmit={cadastrarUsuario}>
                 <div>
                     <label htmlfor="name">Nome:</label>
